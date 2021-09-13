@@ -5,7 +5,7 @@ const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
 const config = require("./config.json");
-const TOKEN = config.TOKEN;
+const TOKEN = process.env.token;
 const PREFIX = config.PREFIX;
 const i18n = require("./util/i18n");
 
