@@ -11,7 +11,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
       .setTitle(i18n.__mf("help.embedTitle", { botname: message.client.user.username }))
       .setDescription(i18n.__("help.embedDescription"))
-      .setColor("#F8AA2A");
+      .setColor("0xFF69B4");
 
     commands.forEach((cmd) => {
       helpEmbed.addField(
@@ -22,7 +22,10 @@ module.exports = {
     });
 
     helpEmbed.setTimestamp();
-
+    helpEmbed.setFooter({
+      text: 'KohBot by MasterKohder6',
+      icon_url: 'https://cdn.discordapp.com/avatars/730004103719288904/ce269b42ef41f924bdeb4e3de9d0cb26.png?size=2048',
+    });
     return message.channel.send(helpEmbed).catch(console.error);
   }
 };
