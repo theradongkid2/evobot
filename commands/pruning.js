@@ -1,10 +1,10 @@
 const fs = require("fs");
-const i18n = require("../util/i18n");
+const i18n = require("./util/i18n");
 
 let config;
 
 try {
-  config = require("../config.json");
+  config = require("./config.json");
 } catch (error) {
   config = null;
 }

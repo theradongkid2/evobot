@@ -1,4 +1,4 @@
-const i18n = require("../util/i18n");
+const i18n = require("./util/i18n");
 
 module.exports = {
   name: "ping",

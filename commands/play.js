@@ -1,5 +1,5 @@
-const i18n = require("../util/i18n");
-const { play } = require("../include/play");
+const i18n = require("./util/i18n");
+const { play } = require("./include/play");
 const ytdl = require("ytdl-core");
 const YouTubeAPI = require("simple-youtube-api");
 const scdl = require("soundcloud-downloader").default;

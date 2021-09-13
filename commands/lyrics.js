@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const lyricsFinder = require("lyrics-finder");
-const i18n = require("../util/i18n");
+const i18n = require("./util/i18n");
 
 module.exports = {
   name: "lyrics",

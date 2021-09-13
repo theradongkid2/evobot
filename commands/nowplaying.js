@@ -1,6 +1,6 @@
 const { splitBar } = require("string-progressbar");
 const { MessageEmbed } = require("discord.js");
-const i18n = require("../util/i18n");
+const i18n = require("./util/i18n");
 
 module.exports = {
   name: "np",
