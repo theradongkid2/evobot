@@ -56,6 +56,3 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# Temp ignore 
-config.json
