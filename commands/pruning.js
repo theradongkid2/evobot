@@ -1,5 +1,5 @@
 const fs = require("fs");
-const i18n = require("./util/i18n");
+const i18n = require("./util/i18n.js");
 
 let config;
 

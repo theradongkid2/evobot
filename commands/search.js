@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const YouTubeAPI = require("simple-youtube-api");
 const YOUTUBE_API_KEY = process.env.youtube;
 const youtube = new YouTubeAPI(YOUTUBE_API_KEY);
-const i18n = require("./util/i18n");
+const i18n = require("./util/i18n.js");
 
 module.exports = {
   name: "search",

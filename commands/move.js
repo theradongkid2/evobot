@@ -1,6 +1,6 @@
 const move = require("array-move");
-const { canModifyQueue } = require("./util/Util");
-const i18n = require("./util/i18n");
+const { canModifyQueue } = require("./util/Util.js");
+const i18n = require("./util/i18n.js");
 
 module.exports = {
   name: "move",
