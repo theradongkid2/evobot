@@ -7,7 +7,7 @@ const { join } = require("path");
 const config = require("./config.json");
 const TOKEN = process.env.token;
 const PREFIX = config.PREFIX;
-const i18n = require("./util/i18n.js");
+const i18n = require("../util/i18n");
 
 const client = new Client({
   disableMentions: "everyone",

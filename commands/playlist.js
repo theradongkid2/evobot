@@ -1,4 +1,4 @@
-const i18n = require("./util/i18n.js");
+const i18n = require("../util/i18n");
 const { MessageEmbed } = require("discord.js");
 const { play } = require("./include/play");
 const YouTubeAPI = require("simple-youtube-api");
