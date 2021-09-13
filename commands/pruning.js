@@ -16,7 +16,7 @@ module.exports = {
     if (!config) return;
     config.PRUNING = !config.PRUNING;
 
-    fs.writeFile("./config.json", JSON.stringify(config, null, 2), (err) => {
+    fs.writeFile("../config.json", JSON.stringify(config, null, 2), (err) => {
       if (err) {
         console.log(err);
         return message.channel.send(i18n.__("pruning.errorWritingFile")).catch(console.error);
